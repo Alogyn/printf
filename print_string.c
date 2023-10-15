@@ -14,6 +14,9 @@ int print_string(va_list argmt_list)
 	char *strg = va_arg(argmt_list, char *);
 
 	while (*strg != '\0')
+		print_char(*str, buffer, index);
+	str++;
+
 	{
 		_putchar(*strg);
 		strg++;
