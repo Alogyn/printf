@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 #include <unistd.h>
+#include <string.h>
 
 /* To minimis the use of 'write' */
 #define BUFFER_SIZE 1024
