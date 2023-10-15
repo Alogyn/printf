@@ -13,12 +13,15 @@ int _putchar(int c)
 	static int index;
 	static char buffer[BUFFER_SIZE];
 
-	if (c != BUFF && index <= BUFFER_SIZE)
-		buffer[index++] = c;
 	if (c == BUFF || index >= BUFFER_SIZE)
 	{
 		write(1, buffer, index);
 		index++;
 	}
-	return (index);
+
+	if (c != BUFF)
+	{
+		buffer[index++] = c;
+	}
+	return (1);
 }
