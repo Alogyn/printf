@@ -22,6 +22,5 @@ unsigned int _putchar(char *buffer, char c, unsigned int index)
 	}
 	buffer[index] = c;
 	index++;
-	
 	return (index);
 }
