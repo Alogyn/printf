@@ -2,7 +2,7 @@
 
 /**
   * format_specifier - Checks and selects the specifier characters
-  *
+  * and slecte them 
   * @str: The string argument (const char)
   * @index: Number of argument index (int)
   *
