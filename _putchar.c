@@ -5,7 +5,7 @@
   *
   * @c: Input character (char)
   *
-  * Return:
+  * Return: The length of the characters inputed
   */
 
 int _putchar(int c)

@@ -1,8 +1,9 @@
 #include "main.h"
 
-/** print_character - Prints characters from arguments
+/**
+  * print_character - Prints characters from arguments
   *
-  * @argmy_list: The argument list
+  * @argmt_list: The argument list
   *
   * Return: 1
   */

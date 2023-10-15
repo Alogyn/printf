@@ -5,7 +5,11 @@
  */
 
 /**
+  * _printf - Print the Input value
   *
+  * @format: Input values (const chaa)
+  *
+  * Return: The length of value inputed, '-1' in case fail
   */
 
 int _printf(const char *format, ...)

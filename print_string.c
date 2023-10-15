@@ -11,7 +11,7 @@
 int print_string(va_list argmt_list)
 {
 	int length = 0;
-	char *strg = va_arg(argmt_list , char *);
+	char *strg = va_arg(argmt_list, char *);
 
 	while (*strg != '\0')
 	{
