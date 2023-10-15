@@ -6,7 +6,7 @@
   * @list: Input argument character (char)
   * @buffer: Buffer array (char)
   * @index: Number of buffer index (int)
-  
+  *
   * Return: If success, 'i' the number of string characters,
   * '6' id (nill)
   */

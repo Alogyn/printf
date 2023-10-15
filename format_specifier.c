@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
   * format_specifier - Checks and selects the specifier characters
   *
@@ -7,12 +8,13 @@
   *
   * Return: The array to a function
   */
+
 int (*format_specifier(const char *str, int index))(va_list, char *, unsigned int)
 {
 	int i = 0, j = 0, k = index;
 	specif_t arr[] = {
 		{"c", print_character}, {"s", print_string},
-		{"%", print_percent},{NULL, NULL},
+		{"%", print_percent}, {NULL, NULL},
 	};
 
 	while (arr[i].type_format)

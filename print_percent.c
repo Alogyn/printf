@@ -9,7 +9,7 @@
   *
   * Return: Always 1 (Success)
   */
-  
+
 int print_percent(va_list a __attribute__((unused)), char *buffer, unsigned int i)
 {
 	_putchar(buffer, '%', i);

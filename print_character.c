@@ -9,7 +9,7 @@
   *
   * Return: Always 1 (Success)
   */
-  
+
 int print_character(va_list list, char *buffer, unsigned int index)
 {
 	_putchar(buffer, va_arg(list, int), index);
