@@ -10,14 +10,13 @@
 
 int print_string(va_list argmt_list)
 {
-	int length = 0;
+	int length = strlen(strg);
 	char *strg = va_arg(argmt_list, char *);
 
 	while (*strg != '\0')
 	{
 		_putchar(*strg);
 		strg++;
-		length++;
 	}
 
 	return (length);
