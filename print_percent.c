@@ -2,7 +2,7 @@
 
 /**
   * print_percent - Prints a percent sign
-  *
+  * to showw it as a percentage 
   * @a: Input character (unused)
   * @buffer: Buffer array (char)
   * @i: Number of buffer index (int)
