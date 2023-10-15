@@ -21,13 +21,18 @@ int print_string(va_list list, char *buffer, unsigned int index)
 	{
 		while (str[i])
 		{
+			i = 0;
 			index = _putchar(buffer, str[i], index);
 			i++;
 		}
 	}
 	else
 	{
-		while (nil[i])
+		i = 0;
+		while (nul[i])
 			index = _putchar(buffer, nul[i], index);
 		return (6);
 	}
+
+	return (i);
+}

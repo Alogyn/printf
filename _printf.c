@@ -13,7 +13,7 @@ int _printf(const char *format, ...)
 	unsigned int index = 0, i = 0, length = 0;
 	char *buff = malloc(sizeof(char) * 1024);
 	va_list list;
-	int (*fun)(va_list, char *, unsigned int);
+	int (*func)(va_list, char *, unsigned int);
 
 	va_start(list, format);
 	if (!format || (format[0] == '%' && !format[1]))
@@ -28,7 +28,7 @@ int _printf(const char *format, ...)
 		{
 			if (!format[i + 1])
 			{
-				write(1, buffer, index), free(buff), va_end(list);
+				write(1, buff, index), free(buff), va_end(list);
 				return (-1);
 			}
 			else
@@ -47,6 +47,6 @@ int _printf(const char *format, ...)
 			} i++;
 		} i++;
 	}
-	write(1, buffer, index), free(buff), va_end(list);
+	write(1, buff, index), free(buff), va_end(list);
 	return (length);
 }
