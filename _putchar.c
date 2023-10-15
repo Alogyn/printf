@@ -3,7 +3,7 @@
 
 /**
 * _putchar - Add the characters to a buffer and
-* prints them
+* prints them all by index
 *
 * @buffer: Buffer array (char)
 * @c: Input character (char)
