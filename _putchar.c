@@ -1,27 +1,14 @@
 #include "main.h"
 
-/**
-  * _putchar - Prints single character
-  *
-  * @c: Input character (char)
-  *
-  * Return: The length of the characters inputed
-  */
-
-int _putchar(int c)
+unsigned int _putchar(char *buffer, char c, unsigned int index)
 {
-	static int index;
-	static char buffer[BUFFER_SIZE];
-
-	if (c == BUFF || index >= BUFFER_SIZE)
+	if (index >= 1024)
 	{
 		write(1, buffer, index);
-		index++;
+		index = 0;
 	}
-
-	if (c != BUFF)
-	{
-		buffer[index++] = c;
-	}
-	return (1);
+	buffer[index] = c;
+	index++;
+	
+	return (index);
 }
