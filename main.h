@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* Standard libraries */
+/* Standard libraries */ all of them 
 #include <stdio.h>
 #include <stdarg.h>
 #include <unistd.h>
