@@ -24,12 +24,12 @@ int print_binary(va_list arg_list, char *buffer, unsigned int index);
 char *input_to_binary(char *binary, long int number,
 		int check_negative, int max_size);
 
-/* Task 3: Functions to convertes and prints int to oct and unsigned int */
+/* Task 3: Functions to convertes and prints integers to oct and unsigned int */
 int print_octal(va_list arg_list, char *buffer, unsigned int index);
 char *input_to_octal(char *bin, char *oct);
 int print_unsigned(va_list arg_list, char *buffer, unsigned int index);
 
-/* Task 3: Functions to convertes and prints integer to upper and lower hexa */
+/* Task 3: Functions to convertes and prints integers to upper and lower hexa */
 int print_lower_hexa(va_list arg_list, char *buffer, unsigned int index);
 int print_upper_hexa(va_list arg_list, char *buffer, unsigned int index);
 char *input_to_hexa(char *bin, char *hex, int check_upper, int max_size);
