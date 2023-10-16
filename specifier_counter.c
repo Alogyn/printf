@@ -2,7 +2,7 @@
 
 /**
   * specifier_counter - Counts the number of specifier characters
-  *
+  * specifier ok 
   * @str: The string argument (const char)
   * @index: Number of argument index (int)
   *
