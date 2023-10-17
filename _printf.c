@@ -43,7 +43,7 @@ int _printf(const char *format, ...)
 			else
 			{	_putchar(temp, index), free(temp), va_end(arg_list);
 				return (-1);
-			}i++;
+			} i++;
 		}
 		for (index = char_counter; index > 1024; index -= 1024)
 			;
